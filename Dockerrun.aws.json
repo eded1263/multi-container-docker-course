@@ -26,7 +26,7 @@
       "name": "nginx",
       "image": "bigodinho22/multi-nginx",
       "hostname": "nginx",
-      "essential": false,
+      "essential": true,
       "portMapping": [
         {
           "hostPort": 80,
