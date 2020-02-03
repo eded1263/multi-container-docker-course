@@ -6,7 +6,12 @@
       "image": "bigodinho22/multi-client",
       "hostname": "client",
       "essential": false,
-      "memory": 128
+      "memory": 128,
+      "portMapping": [
+        {
+          "containerPort": 3000
+        }
+      ]
     },
     {
       "name": "api",
